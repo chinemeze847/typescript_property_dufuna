@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bodyContainer{
+    width: 97.5%;
+    height: 60%;
+    margin-top: 20px;
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    background: transparent; /* make scrollbar transparent */
+}
+
+.properties{
+    display: flex;
+    width: 25%;
+    margin-left: 5px;
+    flex: 5;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-left: 7px;
+    margin-bottom:10px;
+}
+
+.propertyLocation{
+    position: relative;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.location{
+    font-family: 'Inter';
+    font-style: 'normal';
+    font-style: 15px;
+    line-height: 14px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.PropertyState{
+    position: absolute;
+    background-color: #09AA36;
+    color: white;
+    right: 5px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 2px;
+}
+
+.propertyDistance{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #717171;
+}
+.IconsAndNums{
+    background: #F5F5F5;
+    border-radius: 4px;
+    margin: 3px;
+    gap: 11;
+}
+
+.number{
+    margin: 2px;
+}
+
+.propertyPrice{
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    font-weight: bold;
+}
+.naira{
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+}

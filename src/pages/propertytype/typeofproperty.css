@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.typeContainer {
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding-right: 7px;
+}
+
+.leftContainer{
+    width: 40%;
+}
+
+.family {
+   width: 100%;
+}
+
+.rightContainer{
+    width: 55%;
+    margin-left: 95px;
+}
+
+.starDiv {   
+   display: flex;
+   padding: 10px;
+   justify-content: flex-end;
+}
+
+.whatProp{
+    font-family: 'Inter';
+    padding: 10px 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.propertyTypes {
+    
+    display: flex;
+    align-items: row;
+    margin-top: 20px;
+    padding: 8px 0px;
+}
+
+.propertyType {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    border: 3px solid #F5F5F5;
+    margin-left: 42px;
+    padding: 16px 0px;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+}
+.propertyType1 {
+    margin-left: 0px;
+}
+.imageItem {
+    position: absolute;
+    right: 2px;
+}
+
+.propertyLabel {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+.rightContainerCenter {
+    height: 40%;
+}
+
+.propertyAs {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.propertyAsList {
+    
+    height: 60%;
+    display: flex;
+    align-items: row;
+}
+
+.propertyAsBox {
+    border: 3px solid #F5F5F5;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.purchaseType {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    font-family: 'Inter';
+}
+
+.statement {
+    font-size: 14px;
+    color:  #717171;
+    line-height: 20px;
+    font-family: 'Inter';
+    margin-top: 5px;
+}
+
+.rightContainerBottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    position: relative;
+    height: 10%;
+}
+
+.next {
+    position: absolute;
+    background-color:#222222;
+    border-radius: 5px;
+    color: white;
+    right: 0;
+    padding: 5px;
+}
+
+.back {
+    font-family: 'Inter';
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 20px;
+}
