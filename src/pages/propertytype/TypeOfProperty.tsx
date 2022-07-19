@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './typeofproperty.css'
 
 const TypeOfProperty = () => {
@@ -76,8 +77,8 @@ const TypeOfProperty = () => {
             <hr/>
 
             <div className='rightContainerBottom'>
-                <span className='back'><a href='self'>Back</a></span>
-                <div className='next'>Next</div>
+                <span className='back'><Link to='/detail'>Back</Link></span>
+                <div className='next '><Link to='/address' className='myLink'>Next</Link></div>
             </div>
         </div>
     </div>

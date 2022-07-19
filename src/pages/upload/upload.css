@@ -1,0 +1,27 @@
+
+
+.firstDiv {
+    width: 74%;
+    position: relative;
+    margin-bottom: 2px;
+}
+.upload2 {
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.leftSide {
+    position : absolute;
+    right: 0;
+}
+
+.add5Label {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.finishHorizon{
+    color: black;
+}

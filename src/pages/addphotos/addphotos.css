@@ -1,0 +1,47 @@
+
+.photosContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.displayDiv {
+    border: 2px dotted #B0B0B0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add5 {
+    margin-top: 20px;
+}
+
+.upload {
+    margin-top: 90px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.nextUpload {
+    background-color:#B0B0B0;
+}
+
+.uploadHorizon{
+    margin-top: 60px;
+}
+
+.photosImg{
+    margin-top: 50%;
+}
+
+.myLink {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+  }

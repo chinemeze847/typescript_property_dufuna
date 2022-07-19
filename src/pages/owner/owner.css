@@ -1,0 +1,30 @@
+
+.inputValidContainers {
+    border: 1px solid #E5E5E5;
+    padding: 1px
+}
+
+.ownerContainerBottom {
+    margin-top: 67px;
+}
+
+.despcriptionDiv {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    height: 60%
+}
+
+.rightOwnerContainer{
+    padding-left: 15px;
+}
+
+.descpInput, .ownerInput {
+    border: none;
+    margin-left: 5px;
+}
+
+.myLink {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+  }

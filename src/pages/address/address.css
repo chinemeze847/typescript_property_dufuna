@@ -1,0 +1,40 @@
+.addressLocation{
+    border: 2px solid #E5E5E5;
+    margin-top: 20px;
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.locationIcon{
+    position: absolute;
+    right: 0;
+}
+
+.inputLocation {
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.addressTopRight {
+    margin-bottom: 40px;
+}
+
+.addresshorizon {
+    margin-top: 80px;
+}
+
+.addressTopCenter{
+    margin-top: 50px;
+}
+
+.addressBottom{
+    margin-top: 85px;
+}
+
+.myLink {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+  }
